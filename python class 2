@@ -1,0 +1,270 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyP+wWCG8yPidKBSHOyIxKps",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Alen-T-Alex/python-class-2/blob/main/python%20class%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LjpptteVeX_g",
+        "outputId": "a7f4d1e3-0a2c-4c5e-86d2-bd746fbae465"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " %- 82\n",
+            "brand- motorola\n",
+            "charging status- False\n"
+          ]
+        }
+      ],
+      "source": [
+        "battery_percent=82\n",
+        "phone_brand=\"motorola\"\n",
+        "is_charging=False\n",
+        "print(\" %-\",battery_percent)\n",
+        "print(\"brand-\",phone_brand)\n",
+        "print(\"charging status-\",is_charging)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temp_celcius=24.1\n",
+        "city=\"Kerala\"\n",
+        "is_raining=True\n",
+        "print(f\"{city} is {temp_celcius} and its raining:{is_raining}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5Mk5LfgChD9c",
+        "outputId": "61ce20bd-ab1a-444f-c946-d7abbe5c6600"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Kerala is 24.1 and its raining:True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "grade=80.1\n",
+        "name_of_student=\"Alen\"\n",
+        "standard=10\n",
+        "pass_exam=True\n",
+        "print(f\"{name_of_student} from class{standard} has achived {grade} .pass?{pass_exam}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8JEVqMRXjqh1",
+        "outputId": "03dc0d1f-0f9c-4f71-c7c4-2c64b0f4fb94"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Alen from class10 has achived 80.1 .pass?True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "player_1=\"Alen\"\n",
+        "player_2=\"rashika\"\n",
+        "player_1_score=8.0\n",
+        "player_2_score=11.0\n",
+        "player_1_win=False\n",
+        "player_2_win=True\n",
+        "print(f\"in todays table tennis match {player_1} and {player_2}were playing and theyre scores were {player_1_score}/{player_2_score}. player 1 win-{player_1_win} player 2 win-{player_2_win}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G4rUdxSHk5z0",
+        "outputId": "fdffcae1-5bcb-45b5-871d-6f46e4993abd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "in todays table tennis match Alen and rashikawere playing and theyre scores were 8.0/11.0. player 1 win-False player 2 win-True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"alen\"\n",
+        "age=16\n",
+        "print(\"my name is %s and I am %d years old\" %(name,age))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mxT4V8ZYnFct",
+        "outputId": "6aadc9ce-36d5-4f7b-d57f-e6e8e15346ec"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is alen and I am 16 years old\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"alen\"\n",
+        "age=16\n",
+        "print(\"my name is {} and i am {} years old\".format(name,age))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fjr_4JJxnzcV",
+        "outputId": "2e175dc6-0464-4bcd-ce51-935ffaadd593"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is alen and i am 16 years old\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"alen\"\n",
+        "age=16\n",
+        "print(f\"my name is {name} and i am {age} years old\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tZxJs3edoObO",
+        "outputId": "aff3da19-6030-49ab-d986-09c64212dd41"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my name is alen and i am 16 years old\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "points=25\n",
+        "print(f\"double points:{points*2}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4hDLMkItofdO",
+        "outputId": "4ad18a07-2b7f-4f25-fd6c-d079bac62df9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "double points:50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "food_cost=14.5\n",
+        "transport_cost=50\n",
+        "entertainment_cost=100\n",
+        "total_budget=64.5\n",
+        "total_spent=food_cost+transport_cost+entertainment_cost\n",
+        "over_budget=total_spent>total_budget\n",
+        "print(f\"total spent:{total_spent}. total budget:{total_budget}. over budget:{over_budget}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xUyDHuAPo5OQ",
+        "outputId": "bd407509-fef9-4685-e4c8-70d09790ded9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "total spent:164.5. total budget:64.5. over budget:True.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
